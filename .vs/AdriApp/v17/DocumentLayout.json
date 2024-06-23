@@ -1,14 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coding\\Projetos\\AdriApp\\",
+  "WorkspaceRootPath": "D:\\Coding\\Projetos\\my-app-csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|d:\\coding\\projetos\\adriapp\\adriapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|d:\\coding\\projetos\\my-app-csharp\\adriapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|solutionrelative:adriapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AdriApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|D:\\Coding\\Projetos\\my-app-csharp\\adriapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|solutionrelative:adriapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|D:\\Coding\\Projetos\\AdriApp\\adriapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|solutionrelative:adriapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DECEA14-F68B-49BC-83AC-5EFA659384AA}|AdriApp\\AdriApp.csproj|d:\\coding\\projetos\\my-app-csharp\\adriapp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,15 +34,27 @@
         },
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AdriApp",
+              "DocumentMoniker": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\AdriApp.csproj",
+              "RelativeDocumentMoniker": "AdriApp\\AdriApp.csproj",
+              "ToolTip": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\AdriApp.csproj",
+              "RelativeToolTip": "AdriApp\\AdriApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-23T03:46:41.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Coding\\Projetos\\AdriApp\\AdriApp\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AdriApp\\MainWindow.xaml",
-              "ToolTip": "D:\\Coding\\Projetos\\AdriApp\\AdriApp\\MainWindow.xaml",
+              "ToolTip": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\MainWindow.xaml",
               "RelativeToolTip": "AdriApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-18T00:06:24.772Z",
@@ -44,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Coding\\Projetos\\AdriApp\\AdriApp\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AdriApp\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Coding\\Projetos\\AdriApp\\AdriApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Coding\\Projetos\\my-app-csharp\\AdriApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "AdriApp\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwEgAAAANAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAmwHwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T00:06:24.29Z",
               "EditorCaption": ""
