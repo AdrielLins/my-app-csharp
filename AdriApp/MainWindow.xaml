@@ -13,10 +13,20 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <TabControl x:Name="tab_ctrl" SelectionChanged="set_tabs">
-            <TabItem Header="Inicio" Name="tab_inicio">
-                
+            <TabItem Name="tab_inicio">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="67*"/>
+                        <ColumnDefinition Width="727*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                        <Label Content="Selecione o diretório de instalação:" Height="34" Margin="0,90,10,180"/>
+                        <TextBox x:Name="txtDirectory" IsReadOnly="True" Margin="0,90,90,180" Width="215" Height="26"/>
+                        <Button Content="Buscar" Click="browse_Click" Margin="-90,90,90,180"  Width="68" Height="26"/>
+                    </StackPanel>
+                </Grid>
             </TabItem>
-            <TabItem Header="Avanço" Name="tab_avanco">
+            <TabItem Name="tab_avanco">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -26,6 +36,12 @@
                     </Grid.RowDefinitions>
                     <TextBlock Name="textBlockStatus" Text="Status: 0%" Margin="0,50,0,10" HorizontalAlignment="Center" Grid.Row="1"/>
                     <ProgressBar Grid.Row="2" Name="prg_1" Margin="50,0,50,0" Maximum="100" Value="0" />
+                </Grid>
+            </TabItem>
+            <TabItem Name="tab_fim">
+                <Grid>
+                    <TextBlock Name="textBlockFim" Text="Pode clicar no botão abaixo, confia" Margin="298,113,0,-52" HorizontalAlignment="Left" Width="253"/>
+                    <Button Content="Fim" Click="Fim_Sucesso" Margin="50,90,90,180"  Width="68" Height="26"/>
                 </Grid>
             </TabItem>
         </TabControl>
